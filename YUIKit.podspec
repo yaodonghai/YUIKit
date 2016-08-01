@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   # s.authors            = { "yaodonghai" => "" }
   s.platform     = :ios
 
-  s.source           = { :git => 'https://github.com/yaodonghai/YUIKit.git', :tag => "1.1.3" }
+  s.source           = { :git => 'https://github.com/yaodonghai/YUIKit.git', :tag => “0.0.2” }
 
   s.source_files = 'YUIKit/DHLabel/**/*'
   s.framework  = "UIKit"
