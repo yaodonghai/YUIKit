@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
 
   s.source           = { :git => 'https://github.com/yaodonghai/YUIKit.git', :tag => s.version.to_s }
 
-  s.source_files = 'YUIKit/YUIKit/DHLabel/**’
+  s.source_files = 'DHLabel/**’
 end
