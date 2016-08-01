@@ -16,6 +16,8 @@
 		22F07D2E1D4F98870052F7F4 /* YUIKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F07D2D1D4F98870052F7F4 /* YUIKitTests.m */; };
 		22F07D391D4F98870052F7F4 /* YUIKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F07D381D4F98870052F7F4 /* YUIKitUITests.m */; };
 		22F07D4F1D4F99200052F7F4 /* DHLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F07D4E1D4F99200052F7F4 /* DHLabel.m */; };
+		22F07D531D4FA1E60052F7F4 /* DHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F07D521D4FA1E60052F7F4 /* DHTextView.m */; };
+		22F07D561D4FA26B0052F7F4 /* DHImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F07D551D4FA26B0052F7F4 /* DHImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		22F07D3A1D4F98870052F7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22F07D4D1D4F99200052F7F4 /* DHLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLabel.h; sourceTree = "<group>"; };
 		22F07D4E1D4F99200052F7F4 /* DHLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLabel.m; sourceTree = "<group>"; };
+		22F07D511D4FA1E60052F7F4 /* DHTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextView.h; sourceTree = "<group>"; };
+		22F07D521D4FA1E60052F7F4 /* DHTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextView.m; sourceTree = "<group>"; };
+		22F07D541D4FA26B0052F7F4 /* DHImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHImageView.h; sourceTree = "<group>"; };
+		22F07D551D4FA26B0052F7F4 /* DHImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		22F07D071D4F98870052F7F4 = {
 			isa = PBXGroup;
 			children = (
+				22F07D501D4FA1A30052F7F4 /* DHView */,
 				22F07D4C1D4F99200052F7F4 /* DHLabel */,
 				22F07D121D4F98870052F7F4 /* YUIKit */,
 				22F07D2C1D4F98870052F7F4 /* YUIKitTests */,
@@ -149,8 +156,19 @@
 			children = (
 				22F07D4D1D4F99200052F7F4 /* DHLabel.h */,
 				22F07D4E1D4F99200052F7F4 /* DHLabel.m */,
+				22F07D541D4FA26B0052F7F4 /* DHImageView.h */,
+				22F07D551D4FA26B0052F7F4 /* DHImageView.m */,
 			);
 			path = DHLabel;
+			sourceTree = "<group>";
+		};
+		22F07D501D4FA1A30052F7F4 /* DHView */ = {
+			isa = PBXGroup;
+			children = (
+				22F07D511D4FA1E60052F7F4 /* DHTextView.h */,
+				22F07D521D4FA1E60052F7F4 /* DHTextView.m */,
+			);
+			path = DHView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +301,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F07D561D4FA26B0052F7F4 /* DHImageView.m in Sources */,
 				22F07D4F1D4F99200052F7F4 /* DHLabel.m in Sources */,
 				22F07D1B1D4F98870052F7F4 /* ViewController.m in Sources */,
+				22F07D531D4FA1E60052F7F4 /* DHTextView.m in Sources */,
 				22F07D181D4F98870052F7F4 /* AppDelegate.m in Sources */,
 				22F07D151D4F98870052F7F4 /* main.m in Sources */,
 			);
